@@ -13,7 +13,7 @@ export enum OrderType {
   MarketIncrease = 2,
   // @dev LimitIncrease: increase position if the triggerPrice is reached and the acceptablePrice can be fulfilled
   LimitIncrease = 3,
-  // @dev MarketDecrease: decrease position at the curent market price
+  // @dev MarketDecrease: decrease position at the current market price
   // the order will be cancelled if the position cannot be decreased at the acceptablePrice
   MarketDecrease = 4,
   // @dev LimitDecrease: decrease position if the triggerPrice is reached and the acceptablePrice can be fulfilled

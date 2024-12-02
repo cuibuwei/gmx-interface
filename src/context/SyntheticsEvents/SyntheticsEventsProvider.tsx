@@ -691,7 +691,7 @@ export function SyntheticsEventsProvider({ children }: { children: ReactNode }) 
 
       setPositionIncreaseEvents((old) => [...old, data]);
 
-      // If this is a limit order, or the order status is not received previosly, notify the user
+      // If this is a limit order, or the order status is not received previously, notify the user
       if (!isMarketOrderType(data.orderType) || !orderStatuses[data.orderKey]) {
         let text = "";
 
@@ -754,7 +754,7 @@ export function SyntheticsEventsProvider({ children }: { children: ReactNode }) 
 
       setPositionDecreaseEvents((old) => [...old, data]);
 
-      // If this is a trigger or liquidation order, or the order status is not received previosly, notify the user
+      // If this is a trigger or liquidation order, or the order status is not received previously, notify the user
       if (!isMarketOrderType(data.orderType) || !orderStatuses[data.orderKey]) {
         let text = "";
 

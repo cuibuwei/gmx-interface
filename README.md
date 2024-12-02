@@ -97,7 +97,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - Code, independent of state and props should be moved outside component body
 
-- In general components should countain only ui logic, all resusable data processing code should be moved to the `domain` or `lib` folder, component-specific calculations
+- In general components should contain only ui logic, all reusable data processing code should be moved to the `domain` or `lib` folder, component-specific calculations
   can be wrapped in custom hooks or functions and placed near component
 
 - Try to keep definition order inside component body:
